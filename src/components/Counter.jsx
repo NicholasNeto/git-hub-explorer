@@ -4,8 +4,7 @@ export function Counter(){
     let [ counter, setCounter] = useState(0)
 
     function increment(){
-        counter += 1;
-        setCounter(counter)
+        setCounter(counter + 1)
         console.log('Increment')
     }
 
