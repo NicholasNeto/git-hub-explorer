@@ -1,3 +1,6 @@
-function App() {
-    return <h1>Hello Word</h1>
+import { RepositoryList } from './components/RepositoryList'
+import './sytles/global.scss'
+
+export function App() {
+    return <RepositoryList />
 }
