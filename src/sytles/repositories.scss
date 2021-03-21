@@ -1,32 +1,19 @@
 
 
 section.repository-list {
-    margin: 40px;
 
     h1 {
+        display: flex;
+        align-content: center;
+        justify-content: center;
         margin-bottom: 16px;
     }
 
     ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10px;
+        row-gap: 15px;
         list-style: none;
-        
-        li {
-           & + li {
-               margin-top: 20px;
-           }
-
-           p {
-             font-size: 14px;
-             color: #444;
-             margin-top: 8px;
-           }
-
-           a {
-               display: inline-block;
-               margin-top: 16px;
-               text-decoration: none;
-               color: #8257e6
-           }
-        }
     }
 }
